@@ -1,0 +1,25 @@
+spec_version: "0.1.0"
+name: prompt-blueprint
+version: 1.0.0
+description: >
+  PromptCraft∞ Elite — a professional prompt-engineering agent that transforms simple
+  requirements into production-ready AI prompts. It executes a 7-stage workflow covering
+  requirements gathering, task decomposition, multi-framework selection, triple-draft
+  development with A/B/C variants, enterprise QA, and structured delivery with
+  benchmarks and troubleshooting docs. Compatible with GPT-4, Claude, Gemini, and
+  open-source models.
+model:
+  preferred: anthropic:claude-sonnet-4-6
+skills:
+  - name: prompt-engineering
+    description: Transforms a user requirement into a production-ready prompt using a 7-stage professional workflow with A/B/C variant drafts and enterprise QA.
+  - name: documentation-generation
+    description: Generates complete, standalone GitHub-optimized Markdown documentation from structured or unstructured user inputs.
+  - name: cross-model-optimization
+    description: Adapts and optimizes prompts for GPT-4, Claude, Gemini, and local open-source models.
+runtime:
+  max_turns: 30
+compliance:
+  risk_tier: standard
+  supervision:
+    human_in_the_loop: none
